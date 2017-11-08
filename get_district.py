@@ -1,3 +1,12 @@
+#!/usr/bin/env python
+
+"""get_district.py"""
+
+__author__ 		= 	'frantisekrehor.cz'
+__email__		= 	'hi@frantisekrehor.cz'
+
+#=========================================================================
+
 import json
 import csv
 from shapely.geometry import Point, Polygon
@@ -7,7 +16,7 @@ from pprint import pprint
 def load_def(json_file):
 	"""
 	Load definition of district polygons - boarders defined with GPS coordinates
-
+	
 	PARAMS		json_file - district objects - boarders defined with GPS coordinates in list
 	RETURN 		df - definition of polygons in dict
 	"""

@@ -1,3 +1,12 @@
+#!/usr/bin/env python
+
+"""parse_kml.py"""
+
+__author__ 		= 	'frantisekrehor.cz'
+__email__		= 	'hi@frantisekrehor.cz'
+
+#=========================================================================
+
 from pykml import parser
 from pprint import pprint
 import json
